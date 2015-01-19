@@ -2,15 +2,15 @@ body {
   padding-top: 70px;
 }
 
-nav {
+navbar {
   background-color: #FFF;
+  border: none;
 }
 
 nav a {
   color: #000;
-  font-family: 'Slabo 27px';
-  font-size: 14px;
-  font-weight: bold;
+  font-family: 'Slabo 13px';
+  font-size: 27px;
   padding: 14px 10px;
   text-transform: lowercase;
 }
