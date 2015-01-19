@@ -2,5 +2,6 @@ h1 {
   font-weight: bold;
   color: #FFF;
   background-color: #FF0066;
-  line-height: 40px;
+  line-height: 48px;
+  padding-left: 10px;
 }
