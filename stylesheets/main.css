@@ -9,15 +9,13 @@ body {
 
 .navbar-fixed-top {
   margin-top: 0px;
-  padding: auto;
 }
 
 nav a {
-  line-height: 40px;
   color: #FFF;
   font-family: 'Slabo 13px';
-  font-size: 27px;
-  padding: 24px 14px;
+  font-size: 26px;
+  padding: 7px 14px;
   text-transform: lowercase;
 }
 
