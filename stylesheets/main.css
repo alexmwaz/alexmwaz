@@ -19,7 +19,7 @@ nav li {
   vertical-align: middle;
 }
 
-nav li #active {
+#active {
   color: #FF0066;
 }
 
