@@ -35,10 +35,6 @@ nav a:hover {
   color: #000;
 }
 
-nav li .active {
-  color: #FF0066;
-}
-
 nav .container {
   height: 40px;
   
