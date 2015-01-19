@@ -3,19 +3,17 @@ body {
 }
 
 .navbar-default {
-  height: 40px;
   background-color: #222;
   border-color: #222;
 }
 
 .navbar-fixed-top {
-  height: 40px;
   margin-top: 0px;
 }
 
 nav a {
   height: 40px;
-  line-height: 60px;
+  line-height: 50px;
   padding: 24px 14px;
   
   color: #FFF;
@@ -26,12 +24,4 @@ nav a {
 
 nav li {
   display: inline;
-  vertical-align: middle;
-}
-
-nav .container {
-  height: 40px;
-  
-  display: table;
-  table-layout: fixed;
 }
