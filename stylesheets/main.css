@@ -14,6 +14,15 @@ body {
   margin-top: 0px;
 }
 
+nav li {
+  display: inline;
+  vertical-align: middle;
+}
+
+nav li #active {
+  color: #FF0066;
+}
+
 nav a {
   height: 40px;
   line-height: 50px;
@@ -28,11 +37,6 @@ nav a {
 nav a:hover {
   background-color: #FF0066;
   color: #000;
-}
-
-nav li {
-  display: inline;
-  vertical-align: middle;
 }
 
 nav .container {
