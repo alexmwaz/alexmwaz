@@ -19,10 +19,6 @@ nav li {
   vertical-align: middle;
 }
 
-#active {
-  color: #FF0066;
-}
-
 nav a {
   height: 40px;
   line-height: 50px;
