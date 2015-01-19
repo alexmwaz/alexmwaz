@@ -3,6 +3,10 @@ body {
   background-color: #FFF;
 }
 
+#active {
+  color: #FF0066;
+}
+
 .navbar-default {
   height: 40px;
   background-color: #000;
