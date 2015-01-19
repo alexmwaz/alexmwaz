@@ -2,6 +2,19 @@ body {
   padding-top: 70px;
 }
 
+nav {
+  background-color: #FFF;
+}
+
+nav a {
+  color: #000;
+  font-family: 'Slabo 27px';
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: lowercase;
+}
+
 nav li {
   display: inline;
 }
