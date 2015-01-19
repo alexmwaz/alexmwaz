@@ -3,16 +3,16 @@ body {
 }
 
 .navbar-default {
-  background-color: #FFF;
-  border-color: #FFF;
+  background-color: #222;
+  border-color: #222;
 }
 
 .navbar-fixed-top {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 nav a {
-  color: #000;
+  color: #FFF;
   font-family: 'Slabo 13px';
   font-size: 27px;
   padding: 14px 10px;
