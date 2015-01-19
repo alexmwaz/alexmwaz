@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 0px;
 }
 
 .navbar-default {
@@ -8,14 +8,14 @@ body {
 }
 
 .navbar-fixed-top {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 nav a {
   color: #FFF;
   font-family: 'Slabo 13px';
   font-size: 27px;
-  padding: 14px 10px;
+  padding: 14px 20px;
   text-transform: lowercase;
 }
 
