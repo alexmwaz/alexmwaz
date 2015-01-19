@@ -26,8 +26,12 @@ nav a {
 
 nav li {
   display: inline;
+  vertical-align: middle;
 }
 
 nav .container {
   height: 40px;
+  
+  display: table;
+  table-layout: fixed;
 }
