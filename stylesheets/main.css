@@ -24,6 +24,11 @@ nav a {
   text-transform: lowercase;
 }
 
+nav a:hover {
+  background-color: #FF0066;
+  color: #000;
+}
+
 nav li {
   display: inline;
   vertical-align: middle;
