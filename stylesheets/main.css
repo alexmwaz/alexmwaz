@@ -9,6 +9,7 @@ body {
 
 .navbar-fixed-top {
   margin-top: 0px;
+  padding: auto;
 }
 
 nav a {
