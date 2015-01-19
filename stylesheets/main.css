@@ -30,10 +30,6 @@ nav a {
   text-transform: lowercase;
 }
 
-nav a .active {
-  color: #FF0066;
-}
-
 nav a:hover {
   background-color: #FF0066;
   color: #000;
