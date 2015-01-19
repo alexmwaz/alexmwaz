@@ -3,10 +3,6 @@ body {
   background-color: #FFF;
 }
 
-#active {
-  color: #FF0066;
-}
-
 .navbar-default {
   height: 40px;
   background-color: #000;
@@ -37,6 +33,10 @@ nav a {
 nav a:hover {
   background-color: #FF0066;
   color: #000;
+}
+
+nav li .active {
+  color: #FF0066;
 }
 
 nav .container {
