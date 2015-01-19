@@ -8,14 +8,14 @@ body {
 }
 
 .navbar-fixed-top {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 nav a {
   color: #FFF;
   font-family: 'Slabo 13px';
   font-size: 27px;
-  padding: 14px 20px;
+  padding: 24px 14px;
   text-transform: lowercase;
 }
 
