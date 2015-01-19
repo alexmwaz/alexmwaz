@@ -13,7 +13,7 @@ body {
 
 nav a {
   @elementHeight: 40px;
-  line-height: 19px;
+  line-height: 40px;
   padding: 24px 14px;
   
   color: #FFF;
