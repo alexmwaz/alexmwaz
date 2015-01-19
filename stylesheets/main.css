@@ -2,9 +2,13 @@ body {
   padding-top: 70px;
 }
 
-navbar {
+navbar-default {
   background-color: #FFF;
-  border: none;
+  border-color: #FFF;
+}
+
+navbar-fixed-top {
+  padding-top: 10px;
 }
 
 nav a {
