@@ -8,11 +8,11 @@ body {
 }
 
 .navbar-fixed-top {
-  min-height: 40px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 nav a {
+  line-height: 40px;
   color: #FFF;
   font-family: 'Slabo 13px';
   font-size: 27px;
