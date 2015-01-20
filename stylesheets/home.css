@@ -25,10 +25,6 @@ h4 {
   margin-top: -20px;
 }
 
-.container:nth-child(4) {
-  padding-left: 70px;
-}
-
 .container:nth-child(5) {
   background-color: #FF0066;
 }
