@@ -32,7 +32,7 @@ nav a {
 
 nav a:hover {
   background-color: #FF0066;
-  color: #FFF;
+  color: #000;
 }
 
 nav .container {
