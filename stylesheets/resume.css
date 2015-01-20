@@ -11,6 +11,10 @@ h2 {
   font-weight: bold;
 }
 
+.container:first-child {
+  margin-top: 40px;
+}
+
 .container:nth-child(3) {
   margin-top: -10px;
   padding-bottom: 16px;
