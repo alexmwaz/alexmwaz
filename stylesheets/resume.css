@@ -11,7 +11,7 @@ h2 {
   font-weight: bold;
 }
 
-.container:first-child {
+.container:nth-child(2) {
   margin-top: 40px;
 }
 
