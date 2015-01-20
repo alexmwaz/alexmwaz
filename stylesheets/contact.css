@@ -1,3 +1,7 @@
-h1 {
-
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url(https://avatars1.githubusercontent.com/u/8772030?v=3&s=460);
+  background-position: center center;
 }
