@@ -8,7 +8,12 @@
 }
 
 h1 {
-  
+  font-size: 44px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #FF0066;
+  line-height: 30px;
+  padding-left: 10px;
 }
 
 .container:nth-child(2) {
