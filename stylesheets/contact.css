@@ -27,6 +27,11 @@ h2 a {
   color: #FF0066;
 }
 
+h2 a:hover {
+  color: #FF0066;
+  line-height: 30px;
+}
+
 .container:nth-child(2) {
   margin-top: 140px;
 }
