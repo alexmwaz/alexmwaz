@@ -37,7 +37,7 @@ nav a {
 nav a:hover {
   background-color: #FF0066;
   color: #000;
-  text-decoration: none;
+  text-decoration: line-through;
 }
 
 nav .container {
