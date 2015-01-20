@@ -7,10 +7,7 @@ h1 {
   padding-left: 10px;
 }
 
-.container:nth-child(2) {
-  padding-bottom: -20px;
-}
-
 .container:nth-child(3) {
-  padding-bottom: 40px;
+  padding-top: -20px;
+  padding-bottom: 24px;
 }
