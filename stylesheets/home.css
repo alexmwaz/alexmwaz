@@ -16,6 +16,11 @@ h3 {
   line-height: 150%;
 }
 
+h4 {
+  font-size: 36px;
+  color: #FFF;
+}
+
 .container:nth-child(3) {
   margin-top: -20px;
 }
@@ -25,5 +30,5 @@ h3 {
 }
 
 .container:nth-child(5) {
-  color: #FF0066;
+  background-color: #FF0066;
 }
