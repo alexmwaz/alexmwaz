@@ -24,6 +24,10 @@ h3 {
   padding-left: 60px;
 }
 
-.col-md-6:first-child p {
+.col-md-6:first-child {
+  display: inline;
+}
+
+.col-md-6:first-child h1 p {
   color: #000;
 }
