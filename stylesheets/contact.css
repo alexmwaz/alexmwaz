@@ -23,17 +23,13 @@ h2 {
   line-height: 110%;
 }
 
-h2 a {
+h2 h2 {
   color: #FF0066;
-  line-height: 30px;
-  height: 30px;
 }
 
-h2 a:hover {
+h2 h2:hover {
   background-color: #FF0066;
   color: #FFF;
-  line-height: 30px;
-  height: 30px;
 }
 
 .container:nth-child(2) {
