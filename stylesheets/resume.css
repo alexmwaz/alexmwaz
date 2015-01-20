@@ -7,6 +7,11 @@ h1 {
   padding-left: 10px;
 }
 
+h3:first-child {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 .container:nth-child(3) {
   margin-top: -10px;
   padding-bottom: 16px;
