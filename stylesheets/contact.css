@@ -23,6 +23,10 @@ h2 {
   line-height: 110%;
 }
 
+h2 a {
+  color: #FF0066;
+}
+
 .container:nth-child(2) {
   margin-top: 140px;
 }
