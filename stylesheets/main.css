@@ -1,12 +1,12 @@
 body {
   padding-top: 50px;
-  background-color: #FFF;
+  background-color: #000;
 }
 
 .navbar-default {
   height: 40px;
-  background-color: #000;
-  border-color: #000;
+  background-color: #FFF;
+  border-color: #FFF;
 }
 
 .navbar-fixed-top {
@@ -24,7 +24,7 @@ nav a {
   line-height: 50px;
   padding: 24px 14px;
   
-  color: #FFF;
+  color: #000;
   /*font-family: 'Slabo 13px';*/
   font-size: 26px;
   text-transform: lowercase;
@@ -32,7 +32,7 @@ nav a {
 
 nav a:hover {
   background-color: #FF0066;
-  color: #000;
+  color: #FFF;
   text-decoration: none;
 }
 
