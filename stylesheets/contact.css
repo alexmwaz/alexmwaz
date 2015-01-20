@@ -5,3 +5,7 @@
   background-image: url(https://avatars1.githubusercontent.com/u/8772030?v=3&s=250);
   background-position: center center;
 }
+
+.container:nth-child(2) {
+  margin-top: 40px;
+}
