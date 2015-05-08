@@ -58,8 +58,9 @@ html {
 }
 
 .sidebar-nav li {
+    font-size: 26px;
     text-indent: 20px;
-    line-height: 70px;
+    line-height: 60px;
 }
 
 .sidebar-nav li a {
