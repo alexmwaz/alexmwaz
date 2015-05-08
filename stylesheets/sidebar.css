@@ -7,6 +7,10 @@ body {
   background-color: #FFF;
 }
 
+.fa {
+  display: inline;
+}
+
 /* Toggle Styles */
 
 #wrapper {
