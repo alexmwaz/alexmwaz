@@ -148,7 +148,7 @@
         $('#wrapper').toggleClass('toggled');
     });
     
-    function checkToggle(){
+    $('#wrapper').toggle(function() {
         if ( $('#wrapper').hasClass('toggled') ) {
             $('.fa').addClass('fa-angle-double-right');
             $('.fa').removeClass('fa-angle-double-left');
@@ -157,11 +157,6 @@
             $('.fa').addClass('fa-angle-double-left');
             $('.fa').removeClass('fa-angle-double-right');
         }
-    }
-    
-    $(document).ready(function() {
-        checkToggle();
-        $(window).resize(checkToggle);
     });
 
 //Function to the css rule
