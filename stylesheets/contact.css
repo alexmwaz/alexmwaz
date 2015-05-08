@@ -38,6 +38,6 @@ h2 a:hover {
   text-decoration: none;
 }
 
-.container:nth-child(2) {
-  margin-top: 140px;
+#page-content-wrapper {
+  padding-top: 80px;
 }
