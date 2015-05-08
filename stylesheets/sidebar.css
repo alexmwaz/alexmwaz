@@ -70,13 +70,14 @@ body {
 }
 
 .topbar-nav li {
+    display: inline-block;
+    float: left;
     font-size: 26px;
     text-indent: 20px;
     line-height: 60px;
 }
 
 .top-nav li a {
-    display: block;
     text-decoration: none;
     color: #FFF;
 }
