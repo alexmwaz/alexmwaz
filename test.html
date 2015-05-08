@@ -148,15 +148,15 @@
     <script>
     $('#menu-toggle').click(function(event) {
         event.preventDefault();
-        if ( $('.fa').hasClass('fa-angle-double-right') ) {
+        $('#wrapper').toggleClass('toggled');
+        if ( $('#wrapper').hasClass('toggled') ) {
             $('.fa').addClass('fa-angle-double-left');
             $('.fa').removeClass('fa-angle-double-right');
         }
-        else if ( $('.fa').hasClass('fa-angle-double-left') ) {
+        else {
             $('.fa').addClass('fa-angle-double-right');
             $('.fa').removeClass('fa-angle-double-left');
         } 
-        $('#wrapper').toggleClass('toggled');
     });
     </script>
 
