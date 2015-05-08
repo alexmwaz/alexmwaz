@@ -1,17 +1,3 @@
-.image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-image: url(http://alexwaz.me/img/self.jpeg);
-  background-position: center center;
-  margin-top: -10px;
-  margin-left: -40px;
-}
-
-/*.image:hover {
-  background-image: url(https://41.media.tumblr.com/ef47b491d68e2391b47779b7a801c09d/tumblr_niki18Qyk71rnvo4ho1_250.png);
-}*/
-
 h1 {
   font-size: 44px;
   font-weight: bold;
