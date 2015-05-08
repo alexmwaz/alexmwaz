@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Slabo+27px|Slabo+13px'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-  <link rel="stylesheet" href="/stylesheets/main.css">
-  <link rel="stylesheet" href="/stylesheets/resume.css">
-  <link rel="icon" type="image/png" href="http://static.tumblr.com/isjkedp/Fhrnif49a/favicon.png">
-  <title>alex waz / resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/sidebar.css" rel="stylesheet">
+    <link href="stylesheets/resume.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="http://static.tumblr.com/isjkedp/Fhrnif49a/favicon.png">
+    <title>alex waz / test res</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="/"><i class="fa fa-circle"></a></i></li>
-          <li><a href="/">Alexander Waz</a></li>
-          <li class="hidden-xs"><a href="/projects">Projects</a></li>
-          <li class="hidden-xs"><a href="/resume" style="text-decoration:underline">Resume</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li class="hidden-xs"><a href="/contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <div class="container">
+
+    <div id="wrapper">
+        
+        <div class="container">
+            <nav class="navbar-fixed-top">
+                <ul class="topbar-nav">
+                    <li class="topbar-brand">
+                        <a href="#menu-toggle" id="menu-toggle">
+                            alexander waz <i class="fa fa-angle-double-left"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="/projects">projects</a>
+                </li>
+                <li>
+                    <a href="/resume">resume</a>
+                </li>
+                <li>
+                    <a href="/contact">contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            
+  <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12 col-md-4">
       <h1>Education</h1>
@@ -65,7 +82,7 @@
   </div>
   </div>
   
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12 col-md-4">
       <h1>Experience</h1>
@@ -86,15 +103,12 @@
   </div>
   </div>
   
-  <div class="container">
+  <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12 col-md-4">
       <h1>Skills</h1>
     </div>
-    <div class="col-md-1">
-      <!-- Margin -->
-    </div>
-    <div class="col-md-7">
+    <div class="col-md-8">
     <div class="col-xs-6 col-sm-3 col-md-3">
       <h3>C++</h3>
       <h3>Python</h3>
@@ -119,6 +133,29 @@
   </div>
   </div>
   
-</body>
+        </div>
+        <!-- /#page-content-wrapper -->
 
+    </div>
+    <!-- /#wrapper -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    $('#menu-toggle').click(function(event) {
+        event.preventDefault();
+        $('#wrapper').toggleClass('toggled');
+        if ( $('#wrapper').hasClass('toggled') ) {
+            $('.fa').addClass('fa-angle-double-right');
+            $('.fa').removeClass('fa-angle-double-left');
+        }
+        else {
+            $('.fa').addClass('fa-angle-double-left');
+            $('.fa').removeClass('fa-angle-double-right');
+        } 
+    });
+    </script>
+
+</body>
 </html>
