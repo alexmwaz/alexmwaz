@@ -83,7 +83,7 @@ body {
 
 .topbar-nav li a:hover {
     text-decoration: none;
-    color: #FF0066;
+    color: #FF5FB4;
 }
 
 .topbar-nav li a:active,
@@ -102,7 +102,7 @@ body {
 }
 
 .topbar-nav > .topbar-brand a:hover {
-    color: #FF0066;
+    color: #FF5FB4;
 }
 
 /* Sidebar Styles */
@@ -131,7 +131,7 @@ body {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #000;
-    background: #FF0066;
+    background: #FF5FB4;
 }
 
 .sidebar-nav li a:active,
@@ -151,7 +151,7 @@ body {
 
 .sidebar-nav > .sidebar-brand a:hover {
     color: #000;
-    background: #FF0066;
+    background: #FF5FB4;
 }
 
 @media(min-width:1150px) {
