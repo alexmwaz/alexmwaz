@@ -3,13 +3,13 @@ html {
 }
 
 .navbar-default {
-  height: 40px;
+  height: 80px;
   background-color: #000;
   border-color: #000;
 }
 
 .navbar-fixed-top {
-  height: 40px;
+  height: 80px;
   margin-top: 0px;
 }
 
