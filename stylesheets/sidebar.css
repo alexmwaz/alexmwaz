@@ -2,6 +2,17 @@ html {
   overflow-y: scroll;
 }
 
+.navbar-default {
+  height: 40px;
+  background-color: #000;
+  border-color: #000;
+}
+
+.navbar-fixed-top {
+  height: 40px;
+  margin-top: 0px;
+}
+
 /* Toggle Styles */
 
 #wrapper {
