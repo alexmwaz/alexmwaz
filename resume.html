@@ -146,6 +146,9 @@
     $('#menu-toggle').click(function(event) {
         event.preventDefault();
         $('#wrapper').toggleClass('toggled');
+    });
+    
+    function checkToggle(){
         if ( $('#wrapper').hasClass('toggled') ) {
             $('.fa').addClass('fa-angle-double-right');
             $('.fa').removeClass('fa-angle-double-left');
@@ -153,8 +156,16 @@
         else {
             $('.fa').addClass('fa-angle-double-left');
             $('.fa').removeClass('fa-angle-double-right');
-        } 
+        }
+    }
+    
+    $(document).ready(function() {
+        checkToggle();
+        $(window).resize(checkToggle);
     });
+
+//Function to the css rule
+
     </script>
 
 </body>
