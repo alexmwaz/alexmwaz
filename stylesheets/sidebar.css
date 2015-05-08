@@ -59,7 +59,7 @@ html {
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 60px;
+    line-height: 70px;
 }
 
 .sidebar-nav li a {
@@ -82,16 +82,16 @@ html {
 .sidebar-nav > .sidebar-brand {
     height: 65px;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 90px;
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #FFF;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
+    color: #000;
+    background: #FF0066;
 }
 
 @media(min-width:768px) {
