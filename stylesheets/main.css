@@ -21,6 +21,7 @@ body {
 nav li {
   display: inline;
   vertical-align: middle;
+  color: #FFF;
 }
 
 nav li a {
@@ -28,7 +29,6 @@ nav li a {
   line-height: 50px;
   padding: 24px 14px;
   
-  color: #FFF;
   /*font-family: 'Slabo 13px';*/
   font-size: 26px;
   text-transform: lowercase;
