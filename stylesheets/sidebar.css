@@ -2,13 +2,6 @@ html {
   overflow-y: scroll;
 }
 
-.navbar-fixed-top {
-  height: 60px;
-  background-color: #000;
-  border-color: #000;
-  margin-top: 0px;
-}
-
 body {
   padding-top: 60px;
   background-color: #FFF;
@@ -60,6 +53,13 @@ body {
 
 /* Topbar Styles */
 
+.navbar-fixed-top {
+  height: 60px;
+  background-color: #000;
+  border-color: #000;
+  margin-top: 0px;
+}
+
 .topbar-nav {
     position: absolute;
     top: 0;
@@ -73,6 +73,23 @@ body {
     font-size: 26px;
     text-indent: 20px;
     line-height: 60px;
+}
+
+.top-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.topbar-nav li a:hover {
+    text-decoration: none;
+    color: #000;
+    background: #FF0066;
+}
+
+.topbar-nav li a:active,
+.topbar-nav li a:focus {
+    text-decoration: none;
 }
 
 .topbar-nav > .topbar-brand {
