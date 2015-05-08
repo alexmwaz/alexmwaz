@@ -124,6 +124,7 @@ html {
     }
 
     #page-content-wrapper {
+        padding-top: 50px;
         padding: 20px;
         position: relative;
     }
