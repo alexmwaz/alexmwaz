@@ -154,7 +154,7 @@ body {
     background: #FF0066;
 }
 
-@media(min-width:768px) {
+@media(min-width:1150px) {
     #wrapper {
         padding-left: 250px;
     }
