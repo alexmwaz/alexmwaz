@@ -84,8 +84,7 @@ body {
 
 .topbar-nav li a:hover {
     text-decoration: none;
-    color: #000;
-    background: #FF0066;
+    color: #FF0066;
 }
 
 .topbar-nav li a:active,
@@ -96,7 +95,7 @@ body {
 .topbar-nav > .topbar-brand {
     height: 80px;
     font-size: 32px;
-    line-height: 80px;
+    line-height: 60px;
 }
 
 .topbar-nav > .topbar-brand a {
