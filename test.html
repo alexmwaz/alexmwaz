@@ -146,10 +146,17 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-    $("#menu-toggle").click(function(event) {
+    $('#menu-toggle').click(function(event) {
         event.preventDefault();
-        $('.fa').addClass('fa-flip-horizontal');
-        $("#wrapper").toggleClass("toggled");
+        if ( $('.fa').hasClass('fa-angle-double-right') ) {
+            $('.fa').addClass('fa-angle-double-left');
+            $('.fa').removeClass('fa-angle-double-right');
+        }
+        else if ( $('.fa').hasClass('fa-angle-double-left') ) {
+            $('.fa').addClass('fa-angle-double-right');
+            $('.fa').removeClass('fa-angle-double-left');
+        } 
+        $('#wrapper').toggleClass('toggled');
     });
     </script>
 
