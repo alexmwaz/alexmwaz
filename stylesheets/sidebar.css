@@ -2,14 +2,10 @@ html {
   overflow-y: scroll;
 }
 
-.navbar-default {
+.navbar-fixed-top {
   height: 60px;
   background-color: #000;
   border-color: #000;
-}
-
-.navbar-fixed-top {
-  height: 60px;
   margin-top: 0px;
 }
 
