@@ -146,6 +146,14 @@
     $('#menu-toggle').click(function(event) {
         event.preventDefault();
         $('#wrapper').toggleClass('toggled');
+        if ( $('#wrapper').hasClass('toggled') ) {
+            $('.fa').addClass('fa-angle-double-right');
+            $('.fa').removeClass('fa-angle-double-left');
+        }
+        else {
+            $('.fa').addClass('fa-angle-double-left');
+            $('.fa').removeClass('fa-angle-double-right');
+        } 
     });
     </script>
 
