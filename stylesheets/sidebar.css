@@ -139,6 +139,10 @@ body {
     text-decoration: none;
 }
 
+#current-tab {
+    background: #111;
+}
+
 .sidebar-nav > .sidebar-brand {
     height: 80px;
     font-size: 32px;

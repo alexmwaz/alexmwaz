@@ -1,9 +1,3 @@
-img {
-  display: inline-block;
-  height: 300px;
-  width: 300px;
-}
-
 h1 {
   font-size: 44px;
   font-weight: bold;
@@ -16,7 +10,7 @@ h1 {
 }
 
 h2 {
-  display: inline;
+  display: table;
   line-height: 110%;
 }
 
@@ -31,5 +25,5 @@ h2 a:hover {
 }
 
 #page-content-wrapper {
-  padding-top: 80px;
+  padding-top: 40px;
 }
