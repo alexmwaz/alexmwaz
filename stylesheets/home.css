@@ -28,5 +28,11 @@ h4 {
 }
 
 #page-content-wrapper {
-  padding-top: 80px;
+  padding-top: 60px;
+}
+
+#small-title {
+  font-size: 56px;
+  padding-left: 10px;
+  margin-bottom: 0px;
 }
