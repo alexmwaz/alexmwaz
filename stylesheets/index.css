@@ -14,13 +14,14 @@ h1 {
   background-color: #12FF73;
   line-height: 5.3vw;
   padding-left: 2vw;
+  padding-bottom: 0.42vw;
   cursor: default;
 }
 
 h2 {
   color: #000;
   font-size: 2vw;
-  margin-top: 0vw;
+  padding-top: 1vw;
   padding-left: 6vw;
   padding-right: 10vw;
 }
@@ -34,6 +35,8 @@ h3 a {
     text-decoration: none;
     color: #12FF73;
     background: #FFF;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 h3 a:hover {
@@ -52,7 +55,8 @@ h3.resume {
 }
 
 h3.resume a {
-    padding-left: 5vw;
+  padding-top: 1vw;
+  margin-left: 5vw;
 }
 
 h3.projects {
@@ -66,9 +70,15 @@ h4 {
 }
 
 h5 {
-  font-weight: 300; 
+  font-weight: 300;
+  font-size: 1vw;
   padding-left: 10vw;
 }
+
+h5.projects {
+ font-size: 1.5vw; 
+}
+
 p {
   margin-top: 0vw;
   padding-left: 2.5vw;
@@ -78,17 +88,19 @@ p {
 
 p.projects {
   font-style: italic;
-  padding-left: 7.5vw;
+  padding-left: 7vw;
 }
 
 li.toggle {
   color: #000;
   font-size: 5vw; 
   font-weight: bold;
-  cursor: pointer; cursor: hand;
 }
 
-li.toggle:hover {
+.toggle {
+  cursor: pointer; cursor: hand;
+}
+.toggle:hover {
   color: #12FF73;
 }
 
@@ -97,15 +109,16 @@ div.initHidden {
 }
 
 .bold {
+  font-style: normal;
   font-weight: bold;
 }
 
 img {
-  margin-left: 4vw;
+  margin-left: 15%;
   border: 0;
 }
 
 img.circle {
-	max-width: 150px;
+	max-width: 10vw;
 	border-radius: 50%;
 }
