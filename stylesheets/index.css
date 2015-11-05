@@ -3,32 +3,32 @@ html {
 }
 
 body {
-  padding-top: 4%;
+  padding-top: 10%;
   background-image: url(http://41.media.tumblr.com/bf8dfe2e6ff97f506306344fe021504e/tumblr_ndpupoDTro1rnmh3no2_250.png);
 }
 
 h1 {
   color: #FFF;
-  font-size: 8vw;
+  font-size: 120px;
   font-weight: bold;
   background-color: #12FF73;
-  line-height: 5.3vw;
-  padding-left: 2vw;
-  padding-bottom: 0.42vw;
+  line-height: 75px;
+  padding-left: 20px;
+  padding-bottom: 5px;
   cursor: default;
 }
 
 h2 {
   color: #000;
-  font-size: 2vw;
-  padding-top: 1vw;
-  padding-left: 6vw;
-  padding-right: 10vw;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
 h3 {
   padding-left: 5vw;
-  font-size: 2vw;
+  font-size: 36px;
 }
 
 h3 a {
@@ -65,25 +65,21 @@ h3.projects {
 
 h4 {
   font-style: italic;
-  font-size: 1.5vw;
+  font-size: 28px;
   padding-left: 7.5vw;
 }
 
 h5 {
   font-weight: 300;
-  font-size: 1vw;
+  font-size: 24px;
   padding-left: 10vw;
-}
-
-h5.projects {
- font-size: 1.5vw; 
 }
 
 p {
   margin-top: 0vw;
   padding-left: 2.5vw;
   padding-bottom: 1vw;
-  font-size: 1.5vw;
+  font-size: 24px;
 }
 
 p.projects {
@@ -93,7 +89,7 @@ p.projects {
 
 li.toggle {
   color: #000;
-  font-size: 5vw; 
+  font-size: 64px; 
   font-weight: bold;
 }
 
@@ -119,6 +115,6 @@ img {
 }
 
 img.circle {
-	max-width: 10vw;
+	max-width: 300px;
 	border-radius: 50%;
 }
