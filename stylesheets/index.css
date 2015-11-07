@@ -119,8 +119,11 @@ img.circle {
 	border-radius: 50%;
 }
 
-@media (max-width:800px) {
-	@viewport {
-		width: 700px;
-	}
+@media (max-width:640px) {
+	h1 { font-size: 84px; line-height: 54px; }
+	h2 { font-size: 28px; }
+	li.toggle { font-size: 44px; }
+	h3 { font-size: 32px; }
+	p.projects { font-size: 20px; }
+	img.circle { max-width: 240px; }
 }
