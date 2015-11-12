@@ -120,13 +120,10 @@ img.circle {
 }
 
 @media (max-width:640px) {
-	h1 { font-size: 84px; line-height: 54px; padding-left: none; }
-	h2 { font-size: 28px; padding-left: none; }
+	h1 { font-size: 70px; line-height: 40px; }
+	h2 { font-size: 28px; }
 	li.toggle { font-size: 44px; }
-	h3 { font-size: 32px; padding-left: none; }
-	h4 { padding-left: none; }
-	h5 { padding-left: none; }
-	p { padding-left: none; }
-	p.projects { font-size: 20px; padding-left: none; }
+	h3 { font-size: 32px; }
+	p.projects { font-size: 20px; }
 	img.circle { max-width: 240px; }
 }
