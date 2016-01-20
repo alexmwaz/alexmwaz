@@ -1,0 +1,96 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, em, img, ul, li, footer, header {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+	cursor: crosshair;
+}
+
+@font-face {
+	font-family: ag;
+	src: url(fonts/sans.otf);
+}
+
+body {
+	line-height: 1;
+  font: 20px/1 ag, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #FFF;
+  background: #222;
+  padding: 50px 80px;
+	cursor: crosshair;
+}
+
+.main {
+	max-width: 16.4em;
+  float: left;
+  z-index: -2;
+	cursor: crosshair;
+}
+
+h1 {
+	font-style: italic;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 0.2em;
+	cursor: crosshair;
+}
+
+h1 a,
+h1 a:hover,
+h1 a:active,
+h1 a:focus {
+	text-decoration: none;
+	background: #FFF;
+	cursor: crosshair;
+	padding-right: 0.4em;
+}
+
+p {
+	line-height: 1.2em;
+	margin-bottom: 0.7em;
+	cursor: crosshair;
+}
+
+a {
+	text-decoration: none;
+	background: #FFF;
+	color: #222;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+
+a:hover {
+	text-decoration: none;
+	background: #FF509B;
+	cursor: crosshair;
+}
+
+a:active,
+a:focus {
+	text-decoration: none;
+	cursor: crosshair;
+}
+
+@media screen and (max-width: 500px), screen and (max-device-width: 500px) {
+  body {
+    font-size: 18px;
+    padding: 20px;
+	}
+	h1 {
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 320px), screen and (max-device-width: 320px) {
+  body {
+    font-size: 15px;
+    padding: 12px;
+	}
+	h1 {
+		font-size: 17px;
+	}
+}

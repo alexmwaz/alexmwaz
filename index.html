@@ -1,143 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="stylesheets/sidebar.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="/stylesheets/index.css">
-  <link rel="icon" type="image/png" href="img/icon.png">
-  <title>alex waz</title>
-  
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    $(".toggle").click(function(event) {
-        event.preventDefault();
-        if ( $(this).next().hasClass("initHidden") ) {
-          $(this).next().show(300);
-          $(this).next().removeClass("initHidden");
-        }
-        else {
-          $(this).next().toggle(300);
-        } 
-    });
-  });
-  </script>
-  
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/main.css">
+	
+	<link rel="icon" type="image/png" href="img/ico.png">
+	<title>— Alex Waz</title>
 </head>
-
 <body>
-  <div class="container">
-    <div class="row">
-    <div class="hidden-xs col-md-1"></div>
-    <div class="col-xs-12 col-md-8">
-      <h1>alexander waz.</h1>
-    </div>
-    <div class="hidden-xs col-md-3"></div>
-    </div>
-    <div class="row">
-    <div class="hidden-xs col-md-1"></div>
-    <div class="col-xs-12 col-md-10">
-      <h2>I'm a second-year Computer Science student currently enrolled at the University of California, Los Angeles. I believe that technology and design go hand in hand. Let's keep innovation moving forward.</h2>
-    </div>
-    <div class="hidden-xs col-md-1"></div>
-    </div>
-    <div class="row">
-      <ul style="list-style-type:none">
-        
-        <li class="toggle">+ current projects</li>
-          <div class="row initHidden">
-      <h3 class="toggle projects">+ TIMEPIECE</h3>
-      <div class="initHidden">
-        <h5 class="projects">Medium: Pebble Time</h5>
-      </div>
-      <p class="projects">An insight into information displays and wearable interaction.</p>
-      <h3 class="toggle projects">+ BEATS</h3>
-      <div class="initHidden">
-        <h5 class="projects">Medium: Installation Piece. Contains camera + computer</h5>
-      </div>
-      <p class="projects">A study in game displays, cooperative multiplayer, and motion tracking.</p>
-      <h3 class="toggle projects">+ KEEP THEM WARM</h3>
-      <div class="initHidden">
-        <h5 class="projects">Medium: Article of Clothing. Contains Arduino + soft circuits</h5>
-      </div>
-      <p class="projects">An experiment with non-player games, eTextiles, and passive interaction.</p>
-      <h3 class="toggle projects">+ PEER</h3>
-      <div class="initHidden">
-        <h5 class="projects">Medium: Mobile Application</h5>
-      </div>
-      <p class="projects">A study on tactile media, social networks, and user interfacing.</p>
-          </div>
-        
-        <li class="toggle">+ resume</li>
-          <div class="row initHidden">
-            <h3 class="resume"><a href="download/alexmw-cv.pdf">+ download as pdf</a></h3>
-            <h3 class="resume">EDUCATION</h3>
-            <h4>University of California, Los Angeles</h4>
-            <h4>Computer Science, B.S.</h4>
-            <h4>2014 - present</h4>
-            
-            <h3 class="resume">EXPERIENCE</h3>
-            
-            <h4 class="bold">UCLA Design | Media Arts Lab</h4>
-            <h4>September 2014 - present</h4>
-            <h5>Consultant, Computer Lab Management</h5>
-            <h5>Aids students with technical difficulties, project fabrication, and large-scale prints</h5>
-            <h5>Works on scripting and various computer imaging tasks, Bash</h5>
-            <h5>Manages server and user accounts, MySQL and PHP</h5>
-            <h5>Does various IT and troubleshooting work, as well as hardware configuration</h5>
-            
-            <h4 class="bold">UCLA Unmanned Aerial Systems</h4>
-            <h4>October 2014 - present</h4>
-            <h5>AI Technician</h5>
-            <h5>Collaborates as a team working towards annual competition</h5>
-            <h5>Works on creating an autonomous plane capable of auto-pilot and target recognition, using an Arduino and a Raspberry Pi</h5>
-            <h5>Creates visual processing software using Python and the OpenCV module</h5>
-            <h5>Collaborates as a team working towards annual competition</h5>
-            
-            <h4 class="bold">9 Dots Collaborative Learning Center</h4>
-            <h4>September 2015 - present</h4>
-            <h5>Volunteer Tutor</h5>
-            <h5>Works with primary school students from underserved communities</h5>
-            <h5>Helps elementary and middle school students with classwork</h5>
-            <h5>Creates a safe space for kids where learning and creativity are valued</h5>
-            <h5>Teaches students coding and programming, as well as an intro to robotics</h5>
-            <h5>Introduces children to STEM fields and higher educational options</h5>
-            
-            
-            <h4 class="bold">Team Green on the Hill</h4>
-            <h4>October 2014 - present</h4>
-            <h5>Community Representative</h5>
-            <h5>Advocates for sustainable practices in the university and residential communities environmental impact as a community</h5>
-            <h5>Finds creative ways to educate residents and reduce hill-wide footprint</h5>
-            <h5>Received “Of the Month” award (12/2014) for dedication to sustainability</h5>
-            
-            <h3 class="resume">SKILLS</h3>
-            <h4 class="bold">Digital</h4>
-            <h5>Programming + Scripting. C, C++, Java, Python, Git, Bash</h5>
-            <h5>Web + Networking. HTML, CSS, Javascript, PHP, MySQL</h5>
-            <h5>Various Development Platforms. Unity, Pebble, Android</h5>
-            <h5>IT. Computer Imaging, Lab Management, Server Management</h5>
-            <h4 class="bold">Other</h4>
-            <h5>Art + Design. Photoshop, Illustrator, InDesign, UI, UX</h5>
-            <h5>Physical Abstractions. Arduino, ArduPilot, Raspberry Pi, eTextiles</h5>
-            <h5>Languages. English, French</h5>
-            <h5>Personal. Can only swim backstroke, Baking</h5>
-            
-          </div>
-        
-        <li class="toggle">+ contact</li>
-          <div class="row initHidden">
-      <img src="img/moi.gif" class="circle">
-      <h3>e-mail me at: <a href="mailto:alexmwaz@g.ucla.edu">alexmwaz [at] ucla [dot] edu
-          </a></h3>
-      <h3>linkedin: <a href="https://www.linkedin.com/pub/alex-waz/101/90b/538">alex waz</a></h3>
-          </div>
-        
-      </ul>
-    </div>
-  </div>
+	<div class="main">
+		<h1><a>— Alex Waz</a></h1>
+		<p>
+			is a second-year Computer Science student, currently attending the University of California, Los Angeles.
+		</p>
+		<p>
+			He currently works in the UCLA
+			<a href="http://dma.ucla.edu/">Design Media Arts</a>
+			department, doing various database and computer management.
+		</p>
+		<p>
+			Other involvements include: UCLA
+			<a href="http://aiaa.seas.ucla.edu/">Unmanned Aerial Systems</a>
+			and his Augmented Reality Game Design elective, where he works mainly on computer vision and artificial intelligence.
+		</p>
+		<p>
+			On the weekends, he volunteers at
+			<a href="http://9dots.org/">9 Dots</a>
+			teaching kids how to code, or is out trying to find the best cup of coffee in LA.
+		</p>
+		<p>
+			Find him on <a href="https://www.linkedin.com/in/alex-waz-53890b101">LinkedIn</a>,
+			send him an <a href="mailto:alexmwaz@g.ucla.edu">e-mail</a>,
+			or view his <a href="download/alexmw-cv.pdf">resume</a>.
+		</p>
+	</div>
 </body>
 </html>
