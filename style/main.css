@@ -85,7 +85,7 @@ body {
 	padding: 50px 0px 0px 80px;
 	width: 16.4em;
   position: fixed;
-	overflow: hidden;
+	/*overflow: hidden;*/
   z-index: -2;
 	cursor: crosshair;
 }
