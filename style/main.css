@@ -13,6 +13,64 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, em, img, ul, li, footer, header {
 	src: url(fonts/sans.otf);
 }
 
+.aside {
+	left: -20.2em;
+  height: 100%;
+  position: fixed;
+  width: 20.2em;
+	z-index: -1;
+}
+
+.aside * {
+	margin: 10px 32px;
+}
+
+.aside > :first-child {
+	padding-top: 40px;
+}
+
+.aside h2 {
+	padding: 20px 0px;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.aside p {
+	
+}
+
+.dma {
+	background-color: #295c5d;
+}
+
+.dma a {
+	color: #295c5d;
+}
+
+.uas {
+	background-color: #742b3c;
+}
+
+.uas a {
+	color: #742b3c;
+}
+
+.ar {
+	background-color: #F26B6A;
+}
+
+.ar a {
+	color: #F26B6A;
+}
+
+.nine {
+	background-color: #d59823;
+}
+
+.nine a {
+	color: #d59823;
+}
+
 body {
 	line-height: 1;
   font: 20px/1 ag, sans-serif;
@@ -20,13 +78,14 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #FFF;
   background: #222;
-  padding: 50px 80px;
 	cursor: crosshair;
 }
 
 .main {
-	max-width: 16.4em;
-  float: left;
+	padding: 50px 0px 0px 80px;
+	width: 16.4em;
+  position: fixed;
+	overflow: hidden;
   z-index: -2;
 	cursor: crosshair;
 }
@@ -65,7 +124,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	background: #FF509B;
+	background: #f46fa8;
 	cursor: crosshair;
 }
 
@@ -76,21 +135,26 @@ a:focus {
 }
 
 @media screen and (max-width: 500px), screen and (max-device-width: 500px) {
-  body {
-    font-size: 18px;
-    padding: 20px;
+  .main {
+    /*font-size: 18px;*/
+    padding: 20px 0px 0px 20px;
 	}
-	h1 {
+	.aside {
+		width: 17.6em;
+	}
+	/*h1 {
 		font-size: 19px;
-	}
+	}*/
 }
 
+/*
 @media screen and (max-width: 320px), screen and (max-device-width: 320px) {
-  body {
+  .main {
     font-size: 15px;
-    padding: 12px;
+    padding: 12px 0px 0px 12px;
 	}
 	h1 {
 		font-size: 17px;
 	}
 }
+*/
