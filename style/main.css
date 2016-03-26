@@ -1,3 +1,7 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, em, img, ul, li, footer, header {
   border: 0;
   font-size: 100%;
@@ -30,14 +34,18 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, em, img, ul, li, footer, header {
 	padding-top: 40px;
 }
 
+.aside h1 {
+	margin-left: 0px;
+}
+
 .aside h2 {
 	padding: 20px 0px;
 	font-weight: 700;
 	font-size: 40px;
 }
 
-.aside p {
-	
+.aside a:hover {
+	background: #CCC;
 }
 
 .dma {

@@ -2,7 +2,7 @@ var main = function () {
 	
   $('.reveal').click(function() {
 		$('.aside').animate({
-      left: -$('.aside').width()
+      left: "-20.2em"
     }, 0);
 		
 		$(`.${this.id}`).animate({
@@ -16,7 +16,7 @@ var main = function () {
 
   $('.close').click(function() {
     $('.aside').animate({
-      left: -$('.aside').width()
+      left: "-20.2em"
     }, 200);
 		
     $('.main').animate({
