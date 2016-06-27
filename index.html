@@ -1,112 +1,54 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style/main.css">
-	
-	<link rel="icon" type="image/png" href="img/ico.png">
-	<title>— Alex Waz</title>
-</head>
-<body>
-	<div class="aside dma">
-		<h1><a class="close">Close this —</a></h1>
-		<h2>
-			Design Media Arts
-		</h2>
-		<p>
-			Consultant and Computer Lab Management.
-Aids students with technical difficulties, project fabrication, and
-large-scale prints.
-Works on scripting and various computer imaging tasks.
-Manages server and user accounts.
-Does various IT and troubleshooting work, as well as hardware
-setup and configuration.
-		</p><br>
-		<a href="http://dma.ucla.edu/">: // dma.ucla.edu</a>
-	</div>
-	
-	<div class="aside uas">
-		<h1><a class="close">Close this —</a></h1>
-		<h2>
-			Unmanned Aerial Systems
-		</h2>
-		<p>
-			AI Lead and Software Developer.
-Collaborates as a team working towards annual competition.
-Works on creating an autonomous plane capable of auto-pilot and
-target recognition, using an Arduino and a Raspberry Pi.
-Creates visual processing software using the OpenCV module and
-our own implementations.
-Also deals with network and signal communication between plane
-and groundstation for in-flight communication.
-Leads and organizes the team, setting and working toward goals.
-		</p><br>
-		<a href="http://aiaa.seas.ucla.edu/">: // aiaa.seas.ucla.edu</a>
-	</div>
-	
-	<div class="aside ar">
-		<h1><a class="close">Close this —</a></h1>
-		<h2>
-			ULTRASHAPE
-		</h2>
-		<p>
-			Ultrashape is a puzzle game, loosely based on the poem from Eli Clare’s Making Our Bodies Home. It features three main levels, each with a different mechanic needed in order to solve it. The game is played on a 3D installation with a smartphone.<br><br>
-			The main goal with the game was to create and implement game mechanics that cannot be done in any other medium. My interest was in how the user’s body and pose can interact and manipulate the virtual scene. The game shows a heavy focus on the user’s proximity, location, rotation, and view frustum.
-		</p><br>
-		<a href="http://github.com/alexmwaz/ultrashape-repo/">: // github/ultrashape-repo</a>
-	</div>
-	
-	<div class="aside nine">
-		<h1><a class="close">Close this —</a></h1>
-		<h2>
-			9 Dots Learning Center
-		</h2>
-		<p>
-			Volunteer Tutor.
-Works with primary school students from underserved communities.
-Introduces children to STEM fields and higher educational options.
-Teaches students coding and programming, as well as an
-introductory course to robotics.
-Structures lesson plans to ensure fun and effective learning.
-Creates a safe space for kids where learning and creativity are
-encouraged and valued.
-		</p><br>
-		<a href="http://9dots.org/">: // 9dots.org</a>
-	</div>
-	
-	<div class="right">
-	<div class="main">
-		<h1><a>— Alex Waz</a></h1>
-		<p>
-			is a second-year Computer Science student, currently attending the University of California, Los Angeles.
-		</p>
-		<p>
-			He currently works in the UCLA
-			<a class="reveal" id="dma">Design Media Arts</a>
-			department, doing various database and computer management.
-		</p>
-		<p>
-			Other involvements include: UCLA
-			<a class="reveal" id="uas">Unmanned Aerial Systems</a>
-			and his 
-			<a class="reveal" id="ar">Augmented Reality</a> Game Design elective, where he works mainly on computer vision and artificial intelligence.
-		</p>
-		<p>
-			On the weekends, he volunteers at
-			<br><a class="reveal" id="nine">9 Dots</a>
-			teaching kids how to code, or is out trying to find the best cup of coffee in LA.
-		</p>
-		<p>
-			Find him on <a href="https://www.linkedin.com/in/alex-waz-53890b101">LinkedIn</a>,
-			send him an <a href="mailto:alexmwaz@g.ucla.edu">e-mail</a>,
-			or view his <a href="download/alexmw-cv.pdf">resume</a>.
-		</p>
-	</div>
-	</div>
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="index.js"></script>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/ico.png">
+		<title>— Alex Waz</title>
+    <script src="js/p5.js" type="text/javascript"></script>
+
+    <script src="main.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background: #000000;
+      }
+      canvas {
+        padding: 0;
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+      }
+      div {
+      	width: 500px;
+      	height: 500px;
+      	padding: 0;
+       	display: block;
+       	position: absolute;
+       	top: 50%;
+       	left: 50%;
+       	margin-top: -60px;
+       	margin-left: -80px;
+      	z-index: 0;
+      }
+      h2 {
+      	/*text-align: center;*/
+      	color: #000;
+      	font-family: sans-serif;
+      }
+      a, a:hover, a:active, a:focus {
+      	color: #000;
+      }
+    </style>
+    
+  </head>
+  <body>
+  	<div><h2>alex waz is a<br>work in progress.<br>contact him <a href="mailto:alexmwaz@ucla.edu">here</a>.</h2></div>
+  </body>
 </html>
