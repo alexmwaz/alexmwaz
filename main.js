@@ -1,12 +1,13 @@
-var w = 500
-var h = 500
+var w = 300
+var h = 300
+var r = 500
 
 function setup() {
-  createCanvas(500, 500)
+  createCanvas(w, h)
   background(0)
   
-  textSize(40)
-  textAlign(CENTER)
+  // textSize(40)
+  // textAlign(CENTER)
   
   noStroke()
   fill(255, 255, 255)
@@ -39,17 +40,17 @@ function draw() {
   
   //blendMode(ADD)
    // stroke(24, 0, 64)
-   ellipse(w/2 + n + p, h/2 + m + q, w/2, h/2)
+   ellipse(w/2 + n + p, h/2 + m + q, r/2, r/2)
    // stroke(44, 0, 64)
-   ellipse(w/2 + m + p, h/2 + o + q, w/2, h/2)
+   ellipse(w/2 + m + p, h/2 + o + q, r/2, r/2)
    // stroke(84, 0, 64)
-   ellipse(w/2 + o + p, h/2 + n + q, w/2, h/2)
+   ellipse(w/2 + o + p, h/2 + n + q, r/2, r/2)
   
   //blendMode(BLEND)
    // stroke(255, 255, 255)
-   ellipse(w/2 + p, h/2 + q, w/2, h/2)
+   ellipse(w/2 + p, h/2 + q, r/2, r/2)
    
-   text("alex waz\nis", w/2 + p, h/2 + q)
+  // text("alex waz\nis", w/2 + p, h/2 + q)
   
   a += 0.05
   b += 0.09
